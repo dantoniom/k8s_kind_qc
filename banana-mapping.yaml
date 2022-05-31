@@ -1,0 +1,8 @@
+apiVersion: getambassador.io/v3alpha1
+kind: Mapping
+metadata:
+  name: banana-mapping
+spec:
+  hostname: "banana.lk8s"
+  prefix: /
+  service: banana-service:5678
